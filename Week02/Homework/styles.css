@@ -1,0 +1,44 @@
+header{
+text-align: right
+}
+
+body{
+	background-color:#85748a;
+	color: #00000;
+	font-family: Futura, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight: 900;
+	margin: 25px 100px 75px 100px;
+
+/*New CSS property.*/
+
+	hr {
+  border-top: 12px dashed; #ccc;
+  border-color: black;
+}
+
+main{
+	background-color:#85748a;
+}
+
+main a{
+	color:#0;
+	text-decoration: none;
+}
+
+main a:hover {
+	color:lavender;
+}
+
+img.featured{
+	width:400px;
+}
+
+footer{
+background-color:#85748a;
+text-align: right;
+}
+
+footer h1{
+font-size:13px;
+}
