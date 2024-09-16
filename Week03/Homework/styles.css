@@ -1,0 +1,84 @@
+/* <uniquifier>: Use a unique and descriptive class name
+/* <weight>: Use a value from 400 to 700*/
+
+body{
+  font-family: "Sankofa Display", sans-serif;
+  font-style: normal;
+   background-image: url("Images/pattern.jpg");
+	background-repeat:repeat;
+}
+
+header {
+	text-align: right;
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 25px;
+}
+
+#wrapper{
+	background-color:white;
+	padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+	margin-top: 80px;
+  margin-bottom: 80px;
+  margin-right: 179px;
+  margin-left: 200px;
+	border:solid,20px, #000;
+}
+
+nav{
+	font-size: 30px;
+	background-color:dimgray;
+	padding: 10px;
+	text-align:right;
+}
+
+nav a{
+	text-decroation:none;
+	color:black;
+}
+
+footer{
+	font-size: 30px;
+	text-align: center;
+}
+
+footer a{
+	color:gray;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color:hotpink;
+}
+
+p span.school{
+	color:hotpink;
+}
+
+img.right{
+	width:600px;
+	margin-right: auto;
+	margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 275px;
+  margin-left: 360px;
+}
+
+img.center{
+	  display: block;
+    margin: 0 auto;
+    width: 40%;
+    }
