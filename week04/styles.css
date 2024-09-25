@@ -1,0 +1,81 @@
+/*grouping*/
+h1, h2, h3, h4, h5 {
+	margin: 0px;
+}
+
+body{
+	background-image: url("Images/milk.png");
+	background-repeat:repeat;
+	padding: 0px;
+	margin: 50px;
+	font-family: Futura;
+}
+
+#wrapper{
+	background-color: #241A17;
+	border-radius: 30px;
+	width: 80%;
+	margin:0px auto 0px auto;
+	padding: 50px;
+	border: dotted 10px #A45B96;
+}
+
+#gallery {
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  float: left;
+  width: 180px;
+}
+
+img.small{
+width: 200px;
+}
+
+header{
+	font-size: 25px;
+	border-radius: 30px;
+	padding: 15px;
+	color: #F9F0D8;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+nav a{
+	text-align: center;
+	color:#A45B96;
+	background-color: #F9F0D8;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+nav a:hover {
+	color:#c696b1;
+}
+
+
+main{
+	background-color: #F9F0D8;
+	padding: 20px;
+	border-radius: 30px;
+}
+
+section{
+	background-color: #85665d;
+	padding: 20px;
+	color: #dec8a6;
+	border-radius: 30px;
+}
+
+article{
+	background-color: #382B21;
+	padding: 20px;
+	border-radius: 30px;
+}
+
+footer{
+	background-color: #;
+	text-align: center;
+	color: #F9F0D8;
+	padding: 10px;
+	border-radius: 30px;
+}
