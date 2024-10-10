@@ -1,0 +1,92 @@
+/*<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900*/
+
+body {
+  background-color: white;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 90px;
+  font-style: normal;
+}
+
+header {
+  padding: 2px;
+  background-color: magenta;
+  text-align: center;
+  font-size: 30px;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+}
+
+h2 {
+  color: darkmagenta;
+  text-align: right;
+  font-size: 30px;
+}
+
+h3 {
+  color: darkmagenta;
+  text-align: left;
+  font-size: 20px;
+}
+
+p {
+  color: darkmagenta;
+  font-size: 15px;
+}
+
+#wrapper{
+  padding-top: 30px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+img.small{
+width: 210px;
+}
+
+nav a {
+  background-color: magenta;
+  text-align: center;
+  color: darkmagenta;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+nav a:hover {
+  color:white;
+}
+
+form{
+  padding: 50 px;
+  text-align: center;
+  color: darkmagenta;
+  font-size: 15px;
+}
+
+footer{
+  font-size: 30px;
+  text-align: center;
+}
+
+table {
+  font-family: "Urbanist", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: darkmagenta;
+  font-size: 15px;
+}
+
+td, th {
+  font-family: "Urbanist", sans-serif;
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
