@@ -1,0 +1,80 @@
+/* START border-box fix */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* END border-box fix */
+
+body {
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  margin: 0;
+  display: flex; /* set max width of .container but display as flex and center its contents */
+  justify-content: center; /* this centers the contents of the body like .container */
+}
+
+h1, h2, h3, h4, h5, h6{
+  text-transform: uppercase;
+}
+
+h1{
+  font-size: 50px;
+}
+
+/* Add padding to all of the .container child elements */
+.container > * {
+  padding: 20px;
+}
+/* div.container and .container do the same thing */
+div.container{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #FFFFFF;
+  display: flex; /* uses flex box */
+  flex-wrap: wrap; /* wrap */
+  max-width: 1000px; /* max-width instead of just width allows it to still change in size */
+}
+
+header {
+  background: #45214A;
+  text-align: center;
+  flex: 1 0 100%; /* grow on, shrink off, span width of browser */
+  order: 1; /* display order regardless of html structure */
+}
+
+main {
+  background: #323050;
+  flex: 1 1 500px; /* grow on, shrink on, span width of 500px */
+  order: 3;
+}
+
+nav {
+  color: #FFFFFF;
+  font-size: 18px;
+  background: #21445B;
+  flex: 1 0 200px;
+  order: 2;
+}
+
+nav a {
+  color: #FFFFFF; 
+  text-decoration: !important;
+}
+
+aside {
+  background: #1A6566;
+  flex: 1 0 200px;
+  order: 4;
+}
+
+footer {
+  background: #5D8A66;
+  flex: 1 0 100%; /* grow on, shrink off, span width of browser */
+  order: 5;
+  text-align: center;
+}
