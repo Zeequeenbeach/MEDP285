@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Beastly Bazaar</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+    @keyframes blink {
+        0%, 50% {
+            color: #FFFFFF; 
+        }
+        51%, 100% {
+            color: #36692e; 
+        }
+    }
+
+    body {
+        background-color: #36692e;
+        font-family: "Urbanist", sans-serif;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 250;
+        text-align: center;
+        margin: 40px 0 0 0;
+    }
+
+    p {
+        font-size: 12px;
+        font-weight: 250;
+        text-align: center;
+        animation: blink 1s infinite
+    }
+
+    #main-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        width: 500px;
+        height: 400px;
+        box-sizing: border-box;
+    }
+
+    .container {
+        display: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex: 1; 
+        position: relative;
+    }
+
+    #left-container, #right-container {
+        display: flex; 
+        flex-direction: column;
+        align-items: center; 
+        justify-content: flex-start; 
+        height: 400px;
+        gap: 0px; 
+        padding: 0px; 
+        position: relative; 
+    }
+
+    #model-container {
+        flex: 2; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mask {
+        max-width: 100px;
+        height: auto;
+        position: relative;
+    }
+
+    .mask img {
+    max-width: 100%;
+    height: auto;
+    }
+
+    .model {
+        width: 200px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+</style>
+
+    <script src="script.js" defer></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Welcome to Mask Up</h1>
+    <p>Drag to Dress</p>
+    <div id="main-container">
+        <div id="left-container" class="container">
+            <div class="mask"><img class="mask" alt="mask" id="mask1" src="./images/mask.png"/></div>
+            <div class="mask"><img class="mask" alt="mask" id="mask2" src="./images/rabbit.png"/></div>
+            <div class="mask"><img class="mask" alt="mask" id="mask3" src="./images/elephant.png"/></div>
+            <div class="mask"><img class="mask" alt="mask" id="mask4" src="./images/bull.png"/></div>
+        </div>
+
+        <div id="model-container">
+            <img class="model" alt="model" id="model" src="./images/speech.png" />
+        </div>
+
+        <div id="right-container" class="container">
+            <div class="mask"><img class="mask" alt="mask" id="mask5" src="./images/reptile.png"/></div>
+            <div class="mask"><img class="mask" alt="mask" id="mask6" src="./images/cat.png"/></div>
+            <div class="mask"><img class="mask" alt="mask" id="mask7" src="./images/duck.png"/></div>
+            <div class="mask"><img class="mask" alt="mask" id="mask8" src="./images/bird.png"/></div>
+        </div>
+    </div>
+</body>
+
+</html>
